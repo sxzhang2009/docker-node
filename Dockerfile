@@ -171,4 +171,4 @@ RUN set -ex ;\
 
 RUN apk --update add postgresql-client && rm -rf /var/cache/apk/*
 
-CMD [ "node" ]
+CMD [ "node" ] 
